@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<Title> TecWorkar - Site especializado em vagas de emprego e estágio</title>
+		
+		<!-- CARROSSEL -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="javascript/json.js"></script>
+		<script src="javascript/jquery.js"></script>
+		<script src="javascript/slide.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="description" content="Agência especializada em divulgar vagas de estágio e emprego na área de desenvolvimento">
+		<meta name="keywords" content="Agência digital, Marketing, Sites">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="João Pedro">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
+		<link rel="icon" href="img/hexagons.png">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src= "https://code.jquery.com/jquery-3.1.1.js"></script>
+		<script src="javascript/mov.js"></script>
+	</head>
+	
+	<body>
+		<header class="cabecalho container">
+			<h1 class = "ma">Tec Workar</h1>
+			<a href="index.html"><h1 class="logo"> TecWorkar - Site Especializado em vagas de emprego e estágio </h1></a>
+			<nav class="nav-bar">
+				<div class="nav-container"> 
+					<a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+					<ul class="nav-list " id="nav">
+						<li> <a href="#" id="tile1"> Home</a></li>
+						<li> <a href="#ta" id="tile2"> Estágio</a></li>
+						<li> <a href="#tar" id="tile3"> Emprego</a></li>
+						<li> <a href="#cadastro" id="tile5"> Cadastro</a></li>
+						<li> <a href="#meu" id="tile8"> Contatos</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class = "banner container">
+			<div class ="title">
+				<h2>OUSE DESENVOLVER</h2>
+				<h3>Divulgamos oportunidades de emprego e estágio na área de desenvolvimento front-end e back-end.</h3>
+			</div>
+			<div class="butons">
+				<button class="btn btn-cadastrar">Cadastrar<i class="fa fa-arrow-circle-right"></i></button>
+				<button class="btn btn-sobre">Sobre<i class="fa fa-question-circle"></i></button>
+			</div>
+		</div>
+		
+		<!-- INICIO CARROSSEL -->
+		<div class="slider">
+			<ul id="slider-img">
+				<li class="sliderActive" id="slide1"><a href="#"><img src="img/code-1785541_1920.jpg"></a></li>	
+				<li id="slide2"> <a href="#"><img src="img/code-2558224_1920.jpg"> </a> </li>
+				<li id="slide3"> <a href="#"><img src="img/search-engine-optimization-1359429_1920.jpg"> </a> </li>
+			</ul>
+		</div>
+		<!-- FIM CAROUSEL -->
+		
+		<main class=servicos container>
+			<article class=servico>
+				<div class="inner">
+					<a href="#">Vagas de Emprego e Estágio </a>
+					<h4>Desenvolvimento Web, Desenvolvimento Mobile</h4>
+					<p>
+						Desenvolvedor WEB é o profissional que trabalha desenvolvendo websites, podendo ser um Web Designer (Desenvolvedor do Layout), ou Web Developer(Desenvolvedor de sistemas). O desenvolvimento refere-se a um processo de construção e testes do software especifico para a web, com a finalidade de se obter um conjunto de programas, que satisfazem as funções pretendidas, quer em termos de usabilidade dos usuários ou compatibilidade com outros programas existentes. O desenvolvimento web pode variar desde simples páginas estáticas a aplicações ricas, comércios eletrônicos ou redes sociais.
+					</p>
+				</div>
+			</article>
+		</main>
+		<!--TABELAS-->
+		<!--TABELA ESTÁGIO-->a
+		<div id="ta">
+			<div class="container">
+				<h1>Vagas para estágio</h1>
+				<table class="table table-bordered">
+					<thead>
+						<tr class="danger">
+							<th>Vaga</th>
+							<th>Local</th>
+							<th>Descrição</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="sucess">
+							<td>Estágio em PhP</td>
+							<td>UFC</td>
+							<td>Trabalhar como front-end e back-end na criação de sites e sistemas web.</td>
+							<td>compufc@hotmail.com</td>
+						</tr>
+						<tr class="info">
+							<td>Estágio em Java</td>
+							<td>Dell</td>
+							<td>Atuar como programador jr, utilizando frameworks como: Hibernate e Spring, e também 
+								documentar e analisar requisitos de sistemas</td>
+								<td>dell@hotmail.com</td>
+							</tr>
+							<tr class="warning">
+								<td>Desenvolvedor Web Jr</td>
+								<td>Unimed</td>
+								<td>Trabalhar como front-end para aplicações web com ênfase na área clínica.</td>
+								<td>unimed@gmail.com</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<!--TABELA EMPREGO-->
+			<div id="tar">
+				<div class="container">
+					<h1>Vagas para emprego</h1>
+					<table class="table table-bordered">
+						<thead>
+							<tr class="danger">
+								<th>Vaga</th>
+								<th>Local</th>
+								<th>Descrição</th>
+								<th>Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="sucess">
+								<td>Analista de suport</td>
+								<td>UECE</td>
+								<td>Trabalhar como front-end e back-end na criação de sites e sistemas web.</td>
+								<td>ueceprog@hotmail.com</td>
+							</tr>
+							<tr class="info">
+								<td>Analista de Sitemas</td>
+								<td>Samsung</td>
+								<td>Atuar como programador jr, utilizando frameworks como: Hibernate e Spring, e também 
+									documentar e analisar requisitos de sistemas</td>
+									<td>samsung@hotmail.com</td>
+								</tr>
+								<tr class="warning">
+									<td>Coordenador de TI</td>
+									<td>Ari de Sá</td>
+									<td>Trabalhar como front-end para aplicações web com ênfase na área clínica.</td>
+									<td>aridesá@gmail.com</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<!--NEWSLETTER-->
+				<div id="cadastro">
+					<section class="newsletter container">
+						<h2>Inscreva-se agora!</h2>
+						<h3>Receba oportunidades e seja notificado sobre o mercado web</h3>
+						<form>
+							<input type="email" name="email" placeholder="Seu email:">
+							<button>Cadastrar</button>
+						</form>
+					</section>
+				</div>
+
+				<!--RODAPE-->
+				<footer class="rodape container">
+					<div class ="social-icons">
+						<div id="meu">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-envelope"></i></a>
+						</div>
+					</div>
+					<p class="copyright">Copyright @ 2017 Todos os direitos reservados.</p>
+				</footer>
+			</body>
+		</html>
